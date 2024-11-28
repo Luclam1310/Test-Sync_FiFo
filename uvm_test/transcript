@@ -1,0 +1,553 @@
+# vsim -c top_optimized -coverage "+UVM_TESTNAME=sfifo_test" -do "sim.do" 
+# Start time: 20:27:56 on Nov 28,2024
+# //  Questa Sim-64
+# //  Version 2021.1 win64 Jan 19 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.sfifo_interface(fast)
+# Loading mtiUvm.uvm_pkg(fast)
+# Loading work.sfifo_agent_pkg(fast)
+# Loading work.sfifo_environment_pkg(fast)
+# Loading work.sfifo_sequence_pkg(fast)
+# Loading work.sfifo_test_pkg(fast)
+# Loading work.tb_top_sv_unit(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading work.tb_top(fast)
+# Loading work.sfifo_interface(fast__2)
+# Loading work.sync_fifo(fast)
+# Loading C:/questasim64_2021.1/uvm-1.1d\win64\uvm_dpi.dll
+# do sim.do
+# QuestaSim-64 vcover 2021.1 Coverage Utility 2021.01 Jan 19 2021
+# Start time: 20:28:08 on Nov 28,2024
+# vcover report -html spi_test.ucdb -htmldir covhtmlreport 
+# ** Warning: (vcover-19053) Option '-htmldir' has been deprecated. Please use option '-output' instead.
+# ** Error: (vcover-7) Failed to open UCDB file "spi_test.ucdb" in read mode.
+# End time: 20:28:21 on Nov 28,2024, Elapsed time: 0:00:13
+# Errors: 1, Warnings: 1
+# QuestaSim-64 vcover 2021.1 Coverage Utility 2021.01 Jan 19 2021
+# Start time: 20:28:21 on Nov 28,2024
+# vcover report -file cov_report.txt sfifo_test.ucdb 
+# ** Warning: (vcover-19053) Option '-file' has been deprecated. Please use option '-output' instead.
+# End time: 20:28:21 on Nov 28,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(277) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(278) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test sfifo_test...
+# UVM_INFO ./verify/sfifo_sequence.svh(10) @ 130000: uvm_test_top.sf_env.sf_agt.sf_seqr@@sf_seq [sfifo_sequence] -------- Generata 16 Write REQs --------
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 160000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: 6 full: 0
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 180000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: 45 full: 0
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 200000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: 6 full: 0
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 220000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: fa full: 0
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 240000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: cf full: 0
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 260000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: 41 full: 0
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 280000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: 34 full: 0
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 300000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: 23 full: 0
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 320000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: f4 full: 0
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 340000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: 3b full: 0
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 360000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: d3 full: 0
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 380000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: 8f full: 0
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 400000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: cf full: 0
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 420000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: b0 full: 0
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 440000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: fc full: 0
+# UVM_INFO ./verify/sfifo_sequence.svh(18) @ 450000: uvm_test_top.sf_env.sf_agt.sf_seqr@@sf_seq [sfifo_sequence] -------- Generate 16 Read REQs --------
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 460000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: bf full: 1
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 480000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: 6 output_data: 6 empty: 0
+# -------------- Pass! --------------
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 500000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: 45 output_data: 45 empty: 0
+# -------------- Pass! --------------
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 520000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: 6 output_data: 6 empty: 0
+# -------------- Pass! --------------
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 540000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: fa output_data: fa empty: 0
+# -------------- Pass! --------------
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 560000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: cf output_data: cf empty: 0
+# -------------- Pass! --------------
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 580000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: 41 output_data: 41 empty: 0
+# -------------- Pass! --------------
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 600000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: 34 output_data: 34 empty: 0
+# -------------- Pass! --------------
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 620000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: 23 output_data: 23 empty: 0
+# -------------- Pass! --------------
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 640000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: f4 output_data: f4 empty: 0
+# -------------- Pass! --------------
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 660000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: 3b output_data: 3b empty: 0
+# -------------- Pass! --------------
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 680000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: d3 output_data: d3 empty: 0
+# -------------- Pass! --------------
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 700000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: 8f output_data: 8f empty: 0
+# -------------- Pass! --------------
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 720000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: cf output_data: cf empty: 0
+# -------------- Pass! --------------
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 740000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: b0 output_data: b0 empty: 0
+# -------------- Pass! --------------
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 760000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: fc output_data: fc empty: 0
+# -------------- Pass! --------------
+# UVM_INFO ./verify/sfifo_sequence.svh(26) @ 770000: uvm_test_top.sf_env.sf_agt.sf_seqr@@sf_seq [sfifo_sequence] -------- Generata 32 Random REQs --------
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 780000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: bf output_data: bf empty: 1
+# -------------- Pass! --------------
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 800000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: 18 full: 0
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 820000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: 18 output_data: 18 empty: 1
+# -------------- Pass! --------------
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 840000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: 9b full: 0
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 860000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: 5d full: 0
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 880000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: 9b output_data: 9b empty: 0
+# -------------- Pass! --------------
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 900000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: 66 full: 0
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 920000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: 87 full: 0
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 940000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: 84 full: 0
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 960000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: 5d output_data: 5d empty: 0
+# -------------- Pass! --------------
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 980000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: 66 output_data: 66 empty: 0
+# -------------- Pass! --------------
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 1000000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: 87 output_data: 87 empty: 0
+# -------------- Pass! --------------
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 1020000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: bc full: 0
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 1040000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: 84 output_data: 84 empty: 0
+# -------------- Pass! --------------
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 1060000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: 75 full: 0
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 1080000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: 18 full: 0
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 1100000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: f7 full: 0
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 1120000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: bc output_data: bc empty: 0
+# -------------- Pass! --------------
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 1140000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: 5c full: 0
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 1160000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: 65 full: 0
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 1180000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: 80 full: 0
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 1200000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: d7 full: 0
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 1220000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: 47 full: 0
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 1240000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: 75 output_data: 75 empty: 0
+# -------------- Pass! --------------
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 1260000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: 2a full: 0
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 1280000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: b5 full: 0
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 1300000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: 18 output_data: 18 empty: 0
+# -------------- Pass! --------------
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 1320000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: f7 output_data: f7 empty: 0
+# -------------- Pass! --------------
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 1340000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: e8 full: 0
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 1360000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: 48 full: 0
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 1380000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: 5c output_data: 5c empty: 0
+# -------------- Pass! --------------
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 1400000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: 65 output_data: 65 empty: 0
+# -------------- Pass! --------------
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 1420000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: 80 output_data: 80 empty: 0
+# -------------- Pass! --------------
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 1440000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: c5 full: 0
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 1460000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: 14 full: 0
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 1480000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: 99 full: 0
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 1500000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: f3 full: 0
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 1520000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: d7 output_data: d7 empty: 0
+# -------------- Pass! --------------
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 1540000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: 7c full: 0
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 1560000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: 47 output_data: 47 empty: 0
+# -------------- Pass! --------------
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 1580000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: 2a output_data: 2a empty: 0
+# -------------- Pass! --------------
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 1600000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: b5 output_data: b5 empty: 0
+# -------------- Pass! --------------
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 1620000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: 85 full: 0
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 1640000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: 39 full: 0
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 1660000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: e8 output_data: e8 empty: 0
+# -------------- Pass! --------------
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 1680000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: 96 full: 0
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 1700000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: 48 output_data: 48 empty: 0
+# -------------- Pass! --------------
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 1720000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: ed full: 0
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 1740000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: d9 full: 0
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 1760000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: 74 full: 0
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 1780000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: dc full: 0
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 1800000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: c5 output_data: c5 empty: 0
+# -------------- Pass! --------------
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 1820000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: 62 full: 0
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 1840000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: 14 output_data: 14 empty: 0
+# -------------- Pass! --------------
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 1860000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: 99 output_data: 99 empty: 0
+# -------------- Pass! --------------
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 1880000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: f3 output_data: f3 empty: 0
+# -------------- Pass! --------------
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 1900000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: 25 full: 0
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 1920000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: 7c output_data: 7c empty: 0
+# -------------- Pass! --------------
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 1940000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: 85 output_data: 85 empty: 0
+# -------------- Pass! --------------
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 1960000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: c full: 0
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 1980000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: c2 full: 0
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 2000000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: 0 full: 0
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 2020000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: 39 output_data: 39 empty: 0
+# -------------- Pass! --------------
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 2040000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: 96 output_data: 96 empty: 0
+# -------------- Pass! --------------
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 2060000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: ed output_data: ed empty: 0
+# -------------- Pass! --------------
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 2080000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: 1f full: 0
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 2100000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: 6c full: 0
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 2120000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: 47 full: 0
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 2140000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: d9 output_data: d9 empty: 0
+# -------------- Pass! --------------
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 2160000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: 74 output_data: 74 empty: 0
+# -------------- Pass! --------------
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 2180000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: dc output_data: dc empty: 0
+# -------------- Pass! --------------
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 2200000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: 78 full: 0
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 2220000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: 62 output_data: 62 empty: 0
+# -------------- Pass! --------------
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 2240000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: 25 output_data: 25 empty: 0
+# -------------- Pass! --------------
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 2260000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: df full: 0
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 2280000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: c output_data: c empty: 0
+# -------------- Pass! --------------
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 2300000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: c2 output_data: c2 empty: 0
+# -------------- Pass! --------------
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 2320000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: d4 full: 0
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 2340000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: 0 output_data: 0 empty: 0
+# -------------- Pass! --------------
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 2360000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: 6a full: 0
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 2380000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: 1f output_data: 1f empty: 0
+# -------------- Pass! --------------
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 2400000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: 40 full: 0
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 2420000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: 6c output_data: 6c empty: 0
+# -------------- Pass! --------------
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 2440000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: 47 output_data: 47 empty: 0
+# -------------- Pass! --------------
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 2460000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: 78 output_data: 78 empty: 0
+# -------------- Pass! --------------
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 2480000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: df output_data: df empty: 0
+# -------------- Pass! --------------
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 2500000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: d4 output_data: d4 empty: 0
+# -------------- Pass! --------------
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 2520000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: 9c full: 0
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 2540000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: 84 full: 0
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 2560000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: 6a output_data: 6a empty: 0
+# -------------- Pass! --------------
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 2580000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: 40 output_data: 40 empty: 0
+# -------------- Pass! --------------
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 2600000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: ec full: 0
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 2620000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: f1 full: 0
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 2640000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: 9c output_data: 9c empty: 0
+# -------------- Pass! --------------
+# 
+# WR is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(23) @ 2660000: uvm_test_top.sf_env.sf_scb [Write Data] wr_en: 1 rd_en: 0 input_data: 18 full: 0
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 2680000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: 84 output_data: 84 empty: 0
+# -------------- Pass! --------------
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 2700000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: ec output_data: ec empty: 0
+# -------------- Pass! --------------
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 2720000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: f1 output_data: f1 empty: 0
+# -------------- Pass! --------------
+# 
+# RD is high
+# UVM_INFO ./verify/sfifo_scoreboard.svh(30) @ 2740000: uvm_test_top.sf_env.sf_scb [Read Data] comp_reg: 18 output_data: 18 empty: 1
+# -------------- Pass! --------------
+# 
+# RD is high
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 2770100: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# ____________________________________________TEST PASSED__________________________________________
+# *************************************************************************************************
+# UVM_INFO @ 2770100: uvm_test_top.sf_env.sf_scb [Scoreboard Report] Transactions PASS = 65 FAIL = 0
+# *************************************************************************************************
+# _________________________________________________________________________________________________
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :  138
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [Questa UVM]     2
+# [RNTST]     1
+# [Read Data]    65
+# [Scoreboard Report]     1
+# [TEST_DONE]     1
+# [Write Data]    65
+# [sfifo_sequence]     3
+# ** Note: $finish    : C:/questasim64_2021.1/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 2770100 ps  Iteration: 53  Instance: /tb_top
+# Saving coverage database on exit...
+# End time: 20:28:22 on Nov 28,2024, Elapsed time: 0:00:26
+# Errors: 0, Warnings: 0

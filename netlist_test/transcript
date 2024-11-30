@@ -1,6 +1,6 @@
 # vsim -c -L unisims_ver work.tb_top glbl "+UVM_TESTNAME=sfifo_test" -do "sim.do" 
-# Start time: 20:55:50 on Nov 28,2024
-# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Start time: 12:05:15 on Nov 30,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
 # //  Questa Sim-64
 # //  Version 2021.1 win64 Jan 19 2021
 # //
@@ -536,5 +536,5 @@
 # [sfifo_sequence]     3
 # ** Note: $finish    : C:/questasim64_2021.1/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
 #    Time: 2770100 ps  Iteration: 53  Instance: /tb_top
-# End time: 20:55:59 on Nov 28,2024, Elapsed time: 0:00:09
+# End time: 12:05:24 on Nov 30,2024, Elapsed time: 0:00:09
 # Errors: 0, Warnings: 0

@@ -1,5 +1,7 @@
++incdir+./verify/dut
+./verify/dut/sync_fifo_2.v
+
 +incdir+./verify
-./verify/sync_fifo_2.v
 ./verify/sfifo_agent_pkg.sv
 ./verify/sfifo_environment_pkg.sv
 ./verify/sfifo_sequence_pkg.sv

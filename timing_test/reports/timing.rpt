@@ -1,0 +1,41 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Mon Dec  2 14:53:07 2024
+| Host         : Lam running 64-bit major release  (build 9200)
+| Command      : report_timing -nworst 1 -delay_type max -sort_by group -file reports/timing.rpt
+| Design       : sync_fifo
+| Device       : 7a35t-cpg236
+| Speed File   : -1  PRODUCTION 1.23 2018-06-13
+-------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack:                    inf
+  Source:                 rd_ptr_reg[0]/C
+                            (rising edge-triggered cell FDRE)
+  Destination:            output_data[6]
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        8.178ns  (logic 3.674ns (44.922%)  route 4.504ns (55.078%))
+  Logic Levels:           4  (FDRE=1 LUT3=1 OBUF=1 RAMD32=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    SLICE_X0Y22          FDRE                         0.000     0.000 r  rd_ptr_reg[0]/C
+    SLICE_X0Y22          FDRE (Prop_fdre_C_Q)         0.419     0.419 r  rd_ptr_reg[0]/Q
+                         net (fo=7, routed)           0.871     1.290    rd_ptr_reg_n_0_[0]
+    SLICE_X1Y21          LUT3 (Prop_lut3_I1_O)        0.296     1.586 r  static_mem_reg_0_7_0_5_i_2/O
+                         net (fo=18, routed)          1.405     2.991    static_mem_reg_0_7_6_11/ADDRA2
+    SLICE_X2Y19          RAMD32 (Prop_ramd32_RADR2_O)
+                                                      0.148     3.139 r  static_mem_reg_0_7_6_11/RAMA/O
+                         net (fo=1, routed)           2.228     5.367    output_data_OBUF[6]
+    W13                  OBUF (Prop_obuf_I_O)         2.811     8.178 r  output_data_OBUF[6]_inst/O
+                         net (fo=0)                   0.000     8.178    output_data[6]
+    W13                                                               r  output_data[6] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+
+
+

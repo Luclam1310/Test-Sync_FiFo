@@ -1,0 +1,306 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Mon Dec  2 14:53:07 2024
+| Host         : Lam running 64-bit major release  (build 9200)
+| Command      : check_timing -verbose -file reports/check_timing.rpt
+| Design       : sync_fifo
+| Device       : 7a35t-cpg236
+| Speed File   : -1  PRODUCTION 1.23 2018-06-13
+------------------------------------------------------------------------------------
+
+
+check_timing report
+
+Table of Contents
+-----------------
+1. checking no_clock (32)
+2. checking constant_clock (0)
+3. checking pulse_width_clock (0)
+4. checking unconstrained_internal_endpoints (136)
+5. checking no_input_delay (19)
+6. checking no_output_delay (18)
+7. checking multiple_clock (0)
+8. checking generated_clocks (0)
+9. checking loops (0)
+10. checking partial_input_delay (0)
+11. checking partial_output_delay (0)
+12. checking latch_loops (0)
+
+1. checking no_clock (32)
+-------------------------
+ There are 32 register/latch pins with no clock driven by root clock pin: clk (HIGH)
+
+rd_ptr_reg[0]/C
+rd_ptr_reg[1]/C
+rd_ptr_reg[2]/C
+rd_ptr_reg[3]/C
+static_mem_reg_0_7_0_5/RAMA/CLK
+static_mem_reg_0_7_0_5/RAMA_D1/CLK
+static_mem_reg_0_7_0_5/RAMB/CLK
+static_mem_reg_0_7_0_5/RAMB_D1/CLK
+static_mem_reg_0_7_0_5/RAMC/CLK
+static_mem_reg_0_7_0_5/RAMC_D1/CLK
+static_mem_reg_0_7_0_5/RAMD/CLK
+static_mem_reg_0_7_0_5/RAMD_D1/CLK
+static_mem_reg_0_7_12_15/RAMA/CLK
+static_mem_reg_0_7_12_15/RAMA_D1/CLK
+static_mem_reg_0_7_12_15/RAMB/CLK
+static_mem_reg_0_7_12_15/RAMB_D1/CLK
+static_mem_reg_0_7_12_15/RAMC/CLK
+static_mem_reg_0_7_12_15/RAMC_D1/CLK
+static_mem_reg_0_7_12_15/RAMD/CLK
+static_mem_reg_0_7_12_15/RAMD_D1/CLK
+static_mem_reg_0_7_6_11/RAMA/CLK
+static_mem_reg_0_7_6_11/RAMA_D1/CLK
+static_mem_reg_0_7_6_11/RAMB/CLK
+static_mem_reg_0_7_6_11/RAMB_D1/CLK
+static_mem_reg_0_7_6_11/RAMC/CLK
+static_mem_reg_0_7_6_11/RAMC_D1/CLK
+static_mem_reg_0_7_6_11/RAMD/CLK
+static_mem_reg_0_7_6_11/RAMD_D1/CLK
+wr_ptr_reg[0]/C
+wr_ptr_reg[1]/C
+wr_ptr_reg[2]/C
+wr_ptr_reg[3]/C
+
+
+2. checking constant_clock (0)
+------------------------------
+ There are 0 register/latch pins with constant_clock.
+
+
+3. checking pulse_width_clock (0)
+---------------------------------
+ There are 0 register/latch pins which need pulse_width check
+
+
+4. checking unconstrained_internal_endpoints (136)
+--------------------------------------------------
+ There are 136 pins that are not constrained for maximum delay. (HIGH)
+
+rd_ptr_reg[0]/CE
+rd_ptr_reg[0]/D
+rd_ptr_reg[0]/R
+rd_ptr_reg[1]/CE
+rd_ptr_reg[1]/D
+rd_ptr_reg[1]/R
+rd_ptr_reg[2]/CE
+rd_ptr_reg[2]/D
+rd_ptr_reg[2]/R
+rd_ptr_reg[3]/CE
+rd_ptr_reg[3]/D
+rd_ptr_reg[3]/R
+static_mem_reg_0_7_0_5/RAMA/I
+static_mem_reg_0_7_0_5/RAMA/WADR0
+static_mem_reg_0_7_0_5/RAMA/WADR1
+static_mem_reg_0_7_0_5/RAMA/WADR2
+static_mem_reg_0_7_0_5/RAMA/WE
+static_mem_reg_0_7_0_5/RAMA_D1/I
+static_mem_reg_0_7_0_5/RAMA_D1/WADR0
+static_mem_reg_0_7_0_5/RAMA_D1/WADR1
+static_mem_reg_0_7_0_5/RAMA_D1/WADR2
+static_mem_reg_0_7_0_5/RAMA_D1/WE
+static_mem_reg_0_7_0_5/RAMB/I
+static_mem_reg_0_7_0_5/RAMB/WADR0
+static_mem_reg_0_7_0_5/RAMB/WADR1
+static_mem_reg_0_7_0_5/RAMB/WADR2
+static_mem_reg_0_7_0_5/RAMB/WE
+static_mem_reg_0_7_0_5/RAMB_D1/I
+static_mem_reg_0_7_0_5/RAMB_D1/WADR0
+static_mem_reg_0_7_0_5/RAMB_D1/WADR1
+static_mem_reg_0_7_0_5/RAMB_D1/WADR2
+static_mem_reg_0_7_0_5/RAMB_D1/WE
+static_mem_reg_0_7_0_5/RAMC/I
+static_mem_reg_0_7_0_5/RAMC/WADR0
+static_mem_reg_0_7_0_5/RAMC/WADR1
+static_mem_reg_0_7_0_5/RAMC/WADR2
+static_mem_reg_0_7_0_5/RAMC/WE
+static_mem_reg_0_7_0_5/RAMC_D1/I
+static_mem_reg_0_7_0_5/RAMC_D1/WADR0
+static_mem_reg_0_7_0_5/RAMC_D1/WADR1
+static_mem_reg_0_7_0_5/RAMC_D1/WADR2
+static_mem_reg_0_7_0_5/RAMC_D1/WE
+static_mem_reg_0_7_0_5/RAMD/ADR0
+static_mem_reg_0_7_0_5/RAMD/ADR1
+static_mem_reg_0_7_0_5/RAMD/ADR2
+static_mem_reg_0_7_0_5/RAMD/WE
+static_mem_reg_0_7_0_5/RAMD_D1/ADR0
+static_mem_reg_0_7_0_5/RAMD_D1/ADR1
+static_mem_reg_0_7_0_5/RAMD_D1/ADR2
+static_mem_reg_0_7_0_5/RAMD_D1/WE
+static_mem_reg_0_7_12_15/RAMA/I
+static_mem_reg_0_7_12_15/RAMA/WADR0
+static_mem_reg_0_7_12_15/RAMA/WADR1
+static_mem_reg_0_7_12_15/RAMA/WADR2
+static_mem_reg_0_7_12_15/RAMA/WE
+static_mem_reg_0_7_12_15/RAMA_D1/I
+static_mem_reg_0_7_12_15/RAMA_D1/WADR0
+static_mem_reg_0_7_12_15/RAMA_D1/WADR1
+static_mem_reg_0_7_12_15/RAMA_D1/WADR2
+static_mem_reg_0_7_12_15/RAMA_D1/WE
+static_mem_reg_0_7_12_15/RAMB/I
+static_mem_reg_0_7_12_15/RAMB/WADR0
+static_mem_reg_0_7_12_15/RAMB/WADR1
+static_mem_reg_0_7_12_15/RAMB/WADR2
+static_mem_reg_0_7_12_15/RAMB/WE
+static_mem_reg_0_7_12_15/RAMB_D1/I
+static_mem_reg_0_7_12_15/RAMB_D1/WADR0
+static_mem_reg_0_7_12_15/RAMB_D1/WADR1
+static_mem_reg_0_7_12_15/RAMB_D1/WADR2
+static_mem_reg_0_7_12_15/RAMB_D1/WE
+static_mem_reg_0_7_12_15/RAMC/WADR0
+static_mem_reg_0_7_12_15/RAMC/WADR1
+static_mem_reg_0_7_12_15/RAMC/WADR2
+static_mem_reg_0_7_12_15/RAMC/WE
+static_mem_reg_0_7_12_15/RAMC_D1/WADR0
+static_mem_reg_0_7_12_15/RAMC_D1/WADR1
+static_mem_reg_0_7_12_15/RAMC_D1/WADR2
+static_mem_reg_0_7_12_15/RAMC_D1/WE
+static_mem_reg_0_7_12_15/RAMD/ADR0
+static_mem_reg_0_7_12_15/RAMD/ADR1
+static_mem_reg_0_7_12_15/RAMD/ADR2
+static_mem_reg_0_7_12_15/RAMD/WE
+static_mem_reg_0_7_12_15/RAMD_D1/ADR0
+static_mem_reg_0_7_12_15/RAMD_D1/ADR1
+static_mem_reg_0_7_12_15/RAMD_D1/ADR2
+static_mem_reg_0_7_12_15/RAMD_D1/WE
+static_mem_reg_0_7_6_11/RAMA/I
+static_mem_reg_0_7_6_11/RAMA/WADR0
+static_mem_reg_0_7_6_11/RAMA/WADR1
+static_mem_reg_0_7_6_11/RAMA/WADR2
+static_mem_reg_0_7_6_11/RAMA/WE
+static_mem_reg_0_7_6_11/RAMA_D1/I
+static_mem_reg_0_7_6_11/RAMA_D1/WADR0
+static_mem_reg_0_7_6_11/RAMA_D1/WADR1
+static_mem_reg_0_7_6_11/RAMA_D1/WADR2
+static_mem_reg_0_7_6_11/RAMA_D1/WE
+static_mem_reg_0_7_6_11/RAMB/I
+static_mem_reg_0_7_6_11/RAMB/WADR0
+static_mem_reg_0_7_6_11/RAMB/WADR1
+static_mem_reg_0_7_6_11/RAMB/WADR2
+static_mem_reg_0_7_6_11/RAMB/WE
+static_mem_reg_0_7_6_11/RAMB_D1/I
+static_mem_reg_0_7_6_11/RAMB_D1/WADR0
+static_mem_reg_0_7_6_11/RAMB_D1/WADR1
+static_mem_reg_0_7_6_11/RAMB_D1/WADR2
+static_mem_reg_0_7_6_11/RAMB_D1/WE
+static_mem_reg_0_7_6_11/RAMC/I
+static_mem_reg_0_7_6_11/RAMC/WADR0
+static_mem_reg_0_7_6_11/RAMC/WADR1
+static_mem_reg_0_7_6_11/RAMC/WADR2
+static_mem_reg_0_7_6_11/RAMC/WE
+static_mem_reg_0_7_6_11/RAMC_D1/I
+static_mem_reg_0_7_6_11/RAMC_D1/WADR0
+static_mem_reg_0_7_6_11/RAMC_D1/WADR1
+static_mem_reg_0_7_6_11/RAMC_D1/WADR2
+static_mem_reg_0_7_6_11/RAMC_D1/WE
+static_mem_reg_0_7_6_11/RAMD/ADR0
+static_mem_reg_0_7_6_11/RAMD/ADR1
+static_mem_reg_0_7_6_11/RAMD/ADR2
+static_mem_reg_0_7_6_11/RAMD/WE
+static_mem_reg_0_7_6_11/RAMD_D1/ADR0
+static_mem_reg_0_7_6_11/RAMD_D1/ADR1
+static_mem_reg_0_7_6_11/RAMD_D1/ADR2
+static_mem_reg_0_7_6_11/RAMD_D1/WE
+wr_ptr_reg[0]/CE
+wr_ptr_reg[0]/D
+wr_ptr_reg[0]/R
+wr_ptr_reg[1]/CE
+wr_ptr_reg[1]/D
+wr_ptr_reg[1]/R
+wr_ptr_reg[2]/CE
+wr_ptr_reg[2]/D
+wr_ptr_reg[2]/R
+wr_ptr_reg[3]/CE
+wr_ptr_reg[3]/D
+wr_ptr_reg[3]/R
+
+ There are 0 pins that are not constrained for maximum delay due to constant clock.
+
+
+5. checking no_input_delay (19)
+-------------------------------
+ There are 19 input ports with no input delay specified. (HIGH)
+
+input_data[0]
+input_data[10]
+input_data[11]
+input_data[12]
+input_data[13]
+input_data[14]
+input_data[15]
+input_data[1]
+input_data[2]
+input_data[3]
+input_data[4]
+input_data[5]
+input_data[6]
+input_data[7]
+input_data[8]
+input_data[9]
+rd_en
+reset
+wr_en
+
+ There are 0 input ports with no input delay but user has a false path constraint.
+
+
+6. checking no_output_delay (18)
+--------------------------------
+ There are 18 ports with no output delay specified. (HIGH)
+
+empty
+full
+output_data[0]
+output_data[10]
+output_data[11]
+output_data[12]
+output_data[13]
+output_data[14]
+output_data[15]
+output_data[1]
+output_data[2]
+output_data[3]
+output_data[4]
+output_data[5]
+output_data[6]
+output_data[7]
+output_data[8]
+output_data[9]
+
+ There are 0 ports with no output delay but user has a false path constraint
+
+ There are 0 ports with no output delay but with a timing clock defined on it or propagating through it
+
+
+7. checking multiple_clock (0)
+------------------------------
+ There are 0 register/latch pins with multiple clocks.
+
+
+8. checking generated_clocks (0)
+--------------------------------
+ There are 0 generated clocks that are not connected to a clock source.
+
+
+9. checking loops (0)
+---------------------
+ There are 0 combinational loops in the design.
+
+
+10. checking partial_input_delay (0)
+------------------------------------
+ There are 0 input ports with partial input delay specified.
+
+
+11. checking partial_output_delay (0)
+-------------------------------------
+ There are 0 ports with partial output delay specified.
+
+
+12. checking latch_loops (0)
+----------------------------
+ There are 0 combinational latch loops in the design through latch input
+
+

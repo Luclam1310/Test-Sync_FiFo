@@ -1,0 +1,98 @@
+Time resolution is 1 ps
+[0] clk i = 0 wr_en = 0 data_in=0xxx
+[20000] clk i = 1 wr_en = 0 data_in=0x81
+[20000] clk i = 1 rd_en=1 rdata=0xxx
+[20000] FIFO is empty, wait for writes to happen
+[40000] clk i = 2 wr_en = 1 data_in=0x0d
+[40000] FIFO is empty, wait for writes to happen
+[60000] clk i = 3 wr_en = 1 data_in=0x65
+[80000] clk i = 4 wr_en = 0 data_in=0x01
+[80000] clk i = 4 rd_en=1 rdata=0xxx
+[100000] clk i = 5 wr_en = 0 data_in=0x3d
+[100000] clk i = 5 rd_en=1 rdata=0xxx
+[120000] clk i = 6 wr_en = 0 data_in=0xf9
+[120000] clk i = 6 rd_en=0 rdata=0xd
+[120000] FIFO is empty, wait for writes to happen
+[140000] clk i = 7 wr_en = 1 data_in=0xaa
+[140000] FIFO is empty, wait for writes to happen
+[160000] clk i = 8 wr_en = 1 data_in=0x77
+[180000] clk i = 9 wr_en = 0 data_in=0x8f
+[180000] clk i = 9 rd_en=0 rdata=0x65
+[200000] clk i = 10 wr_en = 0 data_in=0xe8
+[200000] clk i = 10 rd_en=1 rdata=0x65
+[220000] clk i = 11 wr_en = 0 data_in=0xbd
+[220000] clk i = 11 rd_en=1 rdata=0x65
+[240000] clk i = 12 wr_en = 1 data_in=0x63
+[240000] clk i = 12 rd_en=0 rdata=0xaa
+[240000] FIFO is empty, wait for writes to happen
+[260000] clk i = 13 wr_en = 0 data_in=0x20
+[280000] clk i = 14 wr_en = 0 data_in=0x9d
+[280000] clk i = 14 rd_en=0 rdata=0x77
+[300000] clk i = 15 wr_en = 1 data_in=0x0d
+[300000] clk i = 15 rd_en=1 rdata=0x77
+[320000] clk i = 16 wr_en = 1 data_in=0xd5
+[320000] clk i = 16 rd_en=0 rdata=0x77
+[340000] clk i = 17 wr_en = 0 data_in=0x1d
+[340000] clk i = 17 rd_en=1 rdata=0xxx
+[360000] clk i = 18 wr_en = 1 data_in=0x0a
+[360000] clk i = 18 rd_en=0 rdata=0xxx
+[380000] clk i = 19 wr_en = 0 data_in=0xf2
+[380000] clk i = 19 rd_en=0 rdata=0xxx
+[400000] clk i = 20 wr_en = 1 data_in=0xd8
+[400000] clk i = 20 rd_en=0 rdata=0xxx
+[420000] clk i = 21 wr_en = 1 data_in=0xeb
+[420000] clk i = 21 rd_en=0 rdata=0xxx
+[440000] clk i = 22 rd_en=0 rdata=0xxx
+[460000] FIFO is full, wait for reads to happen
+[460000] clk i = 22 rd_en=0 rdata=0xxx
+[480000] FIFO is full, wait for reads to happen
+[480000] clk i = 22 rd_en=1 rdata=0xxx
+[500000] FIFO is full, wait for reads to happen
+[500000] clk i = 22 wr_en = 0 data_in=0xae
+[500000] clk i = 22 rd_en=1 rdata=0xxx
+[520000] clk i = 23 wr_en = 1 data_in=0x4f
+[520000] clk i = 23 rd_en=1 rdata=0xxx
+[540000] clk i = 24 wr_en = 0 data_in=0x7e
+[540000] clk i = 24 rd_en=1 rdata=0xxx
+[560000] clk i = 25 wr_en = 1 data_in=0xd9
+[560000] clk i = 25 rd_en=0 rdata=0xd8
+[580000] clk i = 26 wr_en = 0 data_in=0x9f
+[580000] clk i = 26 rd_en=1 rdata=0xeb
+[600000] clk i = 27 wr_en = 0 data_in=0xb7
+[600000] clk i = 27 rd_en=1 rdata=0xeb
+[620000] clk i = 28 wr_en = 0 data_in=0x5b
+[620000] clk i = 28 rd_en=1 rdata=0x4f
+[620000] FIFO is empty, wait for writes to happen
+[640000] clk i = 29 wr_en = 1 data_in=0xd0
+[640000] FIFO is empty, wait for writes to happen
+[660000] clk i = 30 wr_en = 1 data_in=0x51
+[680000] clk i = 31 wr_en = 0 data_in=0x0c
+[680000] clk i = 31 rd_en=0 rdata=0xd9
+[700000] clk i = 32 wr_en = 0 data_in=0x77
+[700000] clk i = 32 rd_en=1 rdata=0xd9
+[720000] clk i = 33 wr_en = 0 data_in=0x7e
+[720000] clk i = 33 rd_en=1 rdata=0xd9
+[740000] clk i = 34 wr_en = 1 data_in=0x1f
+[740000] clk i = 34 rd_en=1 rdata=0xxx
+[740000] FIFO is empty, wait for writes to happen
+[760000] clk i = 35 wr_en = 1 data_in=0x78
+[780000] clk i = 36 wr_en = 1 data_in=0x49
+[780000] clk i = 36 rd_en=1 rdata=0xxx
+[800000] clk i = 37 wr_en = 0 data_in=0x58
+[800000] clk i = 37 rd_en=0 rdata=0xxx
+[820000] clk i = 38 wr_en = 0 data_in=0x9c
+[820000] clk i = 38 rd_en=0 rdata=0xxx
+[840000] clk i = 39 wr_en = 0 data_in=0x73
+[840000] clk i = 39 rd_en=1 rdata=0xxx
+[860000] clk i = 40 wr_en = 1 data_in=0xb3
+[860000] clk i = 40 rd_en=1 rdata=0xxx
+[880000] clk i = 41 wr_en = 0 data_in=0xf7
+[880000] clk i = 41 rd_en=1 rdata=0xxx
+[900000] clk i = 42 wr_en = 0 data_in=0x5a
+[900000] clk i = 42 rd_en=1 rdata=0x49
+[900000] FIFO is empty, wait for writes to happen
+[920000] clk i = 43 wr_en = 1 data_in=0xda
+[920000] FIFO is empty, wait for writes to happen
+[940000] clk i = 44 wr_en = 1 data_in=0xb5
+[960000] clk i = 45 wr_en = 1 data_in=0x79
+[960000] clk i = 45 rd_en=0 rdata=0x

@@ -1,0 +1,41 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Dec  6 12:44:32 2024
+# Process ID: 12896
+# Current directory: D:/TESTING_CHIP/1_synchronous_fifo/uvm_test/verify/dut
+# Command line: vivado.exe -mode tcl
+# Log file: D:/TESTING_CHIP/1_synchronous_fifo/uvm_test/verify/dut/vivado.log
+# Journal file: D:/TESTING_CHIP/1_synchronous_fifo/uvm_test/verify/dut\vivado.jou
+# Running On: Lam, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 8299 MB
+#-----------------------------------------------------------
+Vivado% source gen_net.tcl
+# read_verilog "sync_fifo_2.v"
+read_verilog: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 395.070 ; gain = 75.555
+# synth_design -top "sync_fifo" -part "xc7a35tcpg236-1"
+Command: synth_design -top sync_fifo -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 10552
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [D:/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 833.449 ; gain = 413.504
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'sync_fifo' [D:/TESTING_CHIP/1_synchronous_fifo/uvm_test/verify/dut/sync_fifo_2.v:1]
+ERROR: [Synth 8-27] procedural assign not supported [D:/TESTING_CHIP/1_synchronous_fifo/uvm_test/verify/dut/sync_fifo_2.v:22]
+ERROR: [Synth 8-6156] failed synthesizing module 'sync_fifo' [D:/TESTING_CHIP/1_synchronous_fifo/uvm_test/verify/dut/sync_fifo_2.v:1]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 922.305 ; gain = 502.359
+---------------------------------------------------------------------------------
+synthesize failed
+INFO: [Common 17-83] Releasing license: Synthesis
+7 Infos, 0 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+
+Vivado% q
+INFO: [Common 17-206] Exiting Vivado at Fri Dec  6 12:46:12 2024...
